@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KANHA AUTO DEALS</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Arial,sans-serif;
+  background:#f5f5f5;
+  color:#111;
+}
+header{
+  background:#111;
+  color:white;
+  padding:22px 18px;
+  text-align:center;
+}
+header h1{font-size:28px}
+header p{margin-top:6px;color:#ffd400}
+
+nav{
+  background:#ffd400;
+  padding:12px;
+  text-align:center;
+}
+nav a{
+  color:#111;
+  text-decoration:none;
+  font-weight:bold;
+  margin:0 10px;
+}
+
+.hero{
+  background:#181818;
+  color:white;
+  padding:45px 20px;
+  text-align:center;
+}
+.hero h2{font-size:32px}
+.hero p{margin:12px 0 22px;color:#ddd}
+
+.btn{
+  display:inline-block;
+  padding:13px 20px;
+  background:#ffd400;
+  color:#111;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:bold;
+}
+
+section{padding:30px 18px}
+.title{
+  text-align:center;
+  margin-bottom:20px;
+  font-size:25px;
+}
+
+.bikes{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:18px;
+}
+
+.card{
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 3px 12px #ccc;
+}
+.card .bike-img{
+  height:170px;
+  background:#ddd;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:60px;
+}
+.card-content{padding:16px}
+.card h3{margin-bottom:8px}
+.price{
+  color:#d69f00;
+  font-size:22px;
+  font-weight:bold;
+  margin:10px 0;
+}
+
+.info{
+  background:white;
+  border-radius:12px;
+  padding:20px;
+  max-width:700px;
+  margin:auto;
+  box-shadow:0 3px 12px #ddd;
+}
+.info p{margin:10px 0}
+
+footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:25px 15px;
+  margin-top:20px;
+}
+footer a{
+  color:#ffd400;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🏍️ KANHA AUTO DEALS</h1>
+  <p>Second-Hand Bike Buying & Selling</p>
+</header>
+
+<nav>
+  <a href="#bikes">Bikes</a>
+  <a href="#sell">Sell Your Bike</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h2>Find Your Next Bike</h2>
+  <p>Quality used bikes at reasonable prices.</p>
+  <a class="btn" href="#bikes">View Bikes</a>
+</div>
+
+<section id="bikes">
+  <h2 class="title">Available Bikes</h2>
+
+  <div class="bikes">
+
+    <div class="card">
+      <div class="bike-img">🏍️</div>
+      <div class="card-content">
+        <h3>Bike Listing 1</h3>
+        <p>Year: 2022</p>
+        <p>KM: 25,000</p>
+        <div class="price">₹1,00,000</div>
+        <a class="btn" href="#contact">Enquire</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="bike-img">🏍️</div>
+      <div class="card-content">
+        <h3>Bike Listing 2</h3>
+        <p>Year: 2021</p>
+        <p>KM: 30,000</p>
+        <div class="price">₹85,000</div>
+        <a class="btn" href="#contact">Enquire</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="bike-img">🏍️</div>
+      <div class="card-content">
+        <h3>Bike Listing 3</h3>
+        <p>Year: 2023</p>
+        <p>KM: 18,000</p>
+        <div class="price">₹1,20,000</div>
+        <a class="btn" href="#contact">Enquire</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="sell">
+  <h2 class="title">Sell Your Bike</h2>
+
+  <div class="info">
+    <p>Want to sell your bike?</p>
+    <p>Send us your bike details and we will contact you.</p>
+    <br>
+    <a class="btn" href="https://forms.google.com/">Sell Your Bike</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="title">Contact KANHA AUTO DEALS</h2>
+
+  <div class="info">
+    <p><strong>📍 Location:</strong> Bangomunda, Odisha</p>
+    <p><strong>📞 Phone:</strong> Contact us for enquiries</p>
+    <br>
+    <a class="btn" href="tel:+917684868182">Call Now</a>
+  </div>
+</section>
+
+<footer>
+  <h3>KANHA AUTO DEALS</h3>
+  <p>Second-Hand Bike Buying & Selling</p>
+  <p>© 2026 KANHA AUTO DEALS</p>
+</footer>
+
+</body>
+</html>
